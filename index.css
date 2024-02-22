@@ -1,9 +1,10 @@
 body {
     background-image: url("tcc-background.jpg");
     background-size: cover;
-    padding-bottom: 1000px;
+    text-align: center;
 }
 .container {
+    margin-top: 150px;
     display: inline-block;
     text-align: center;
     align-items: center;
