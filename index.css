@@ -1,0 +1,104 @@
+body {
+    background-image: url("tcc-background.jpg");
+    background-size: cover;
+    padding-bottom: 1000px;
+}
+.container {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 500px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.467);
+}
+
+.row {
+    text-align: center;
+}
+
+.button-row {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#increment-btn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#save-btn {
+    background-color: rgb(12, 233, 12);
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+h1,h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    font-style: italic;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#previous-el {
+    color: rgb(252, 252, 252);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.previous-container {
+    background-color: rgba(0, 0, 0, 0.536);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.count-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#count-el {
+    background-color: white;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 150px;
+}
